@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('../fonts/SF-UI-Display/sf-ui-display_thin.eot');
+	src: local('SF UI Display Thin'), local('sf-ui-display_thin'),
+		url('../fonts/SF-UI-Display/sf-ui-display_thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SF-UI-Display/sf-ui-display_thin.woff') format('woff'),
+		url('../fonts/SF-UI-Display/sf-ui-display_thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('../fonts/SF-UI-Display/sf-ui-display_ultralight.eot');
+	src: local('SF UI Display Ultralight'), local('sf-ui-display_ultralight'),
+		url('../fonts/SF-UI-Display/sf-ui-display_ultralight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SF-UI-Display/sf-ui-display_ultralight.woff') format('woff'),
+		url('../fonts/SF-UI-Display/sf-ui-display_ultralight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('../fonts/SF-UI-Display/sf-ui-display_light.eot');
+	src: local('SF UI Display Light'), local('sf-ui-display_light'),
+		url('../fonts/SF-UI-Display/sf-ui-display_light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SF-UI-Display/sf-ui-display_light.woff') format('woff'),
+		url('../fonts/SF-UI-Display/sf-ui-display_light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('../fonts/SF-UI-Display/sf-ui-display_regular.eot');
+	src: local('SF UI Display Regular'), local('sf-ui-display_regular'),
+		url('../fonts/SF-UI-Display/sf-ui-display_regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SF-UI-Display/sf-ui-display_regular.woff') format('woff'),
+		url('../fonts/SF-UI-Display/sf-ui-display_regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('../fonts/SF-UI-Display/sf-ui-display_medium.eot');
+	src: local('SF UI Display Medium'), local('sf-ui-display_medium'),
+		url('../fonts/SF-UI-Display/sf-ui-display_medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SF-UI-Display/sf-ui-display_medium.woff') format('woff'),
+		url('../fonts/SF-UI-Display/sf-ui-display_medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('../fonts/SF-UI-Display/sf-ui-display_semibold.eot');
+	src: local('SF UI Display Semibold'), local('sf-ui-display_semibold'),
+		url('../fonts/SF-UI-Display/sf-ui-display_semibold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SF-UI-Display/sf-ui-display_semibold.woff') format('woff'),
+		url('../fonts/SF-UI-Display/sf-ui-display_semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('../fonts/SF-UI-Display/sf-ui-display_bold.eot');
+	src: local('SF UI Display Bold'), local('sf-ui-display_bold'),
+		url('../fonts/SF-UI-Display/sf-ui-display_bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SF-UI-Display/sf-ui-display_bold.woff') format('woff'),
+		url('../fonts/SF-UI-Display/sf-ui-display_bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('../fonts/SF-UI-Display/sf-ui-display_heavy.eot');
+	src: local('SF UI Display Heavy'), local('sf-ui-display_heavy'),
+		url('../fonts/SF-UI-Display/sf-ui-display_heavy.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SF-UI-Display/sf-ui-display_heavy.woff') format('woff'),
+		url('../fonts/SF-UI-Display/sf-ui-display_heavy.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SF UI Display';
+	src: url('../fonts/SF-UI-Display/sf-ui-display_black.eot');
+	src: local('SF UI Display Black'), local('sf-ui-display_black'),
+		url('../fonts/SF-UI-Display/sf-ui-display_black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SF-UI-Display/sf-ui-display_black.woff') format('woff'),
+		url('../fonts/SF-UI-Display/sf-ui-display_black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
