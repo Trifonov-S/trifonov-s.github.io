@@ -1,224 +1,116 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Официальный партнер Uber в Москве</title>
-    <link rel="stylesheet" href="css/main.min.css">
+
+    <title>Когнетика — Онлайн-курсы по развитию когнитивных навыков</title>
+    <meta name="description" content="Образовательная платформа по развитию когнитивных навыков: онлайн-курсы развития памяти, концетрации, скорочтения. Здесь получают навыки, помогают быстрее развиваться в карьере, эффективнее обучаться новому.">
+    <link rel="canonical" href="https://kognetika.ru/app/letters">
+
+    <meta name="keywords" content="курсы развития скорочтения, развитие скорочтения, курсы скорочтения, курсы развития памяти, развитие памяти, курсы памяти, курсы развития медитативного рисования, развития медитативного рисования, курсы медитативного рисования, курсы развития концентрации, развитие концентрации, курсы концентрации, курсы развития внимания, развитие внимания, курсы внимания, скорочтение, внимание, концентрация, медитативное рисование, зенарт, нейрографика, курсы анастасии трифоновой">
+
+    <meta property="og:title" content="Когнетика — Онлайн-курсы по развитию когнитивных навыков">
+    <meta property="og:description" content="Образовательная платформа по развитию когнитивных навыков: онлайн-курсы развития памяти, концетрации, скорочтения. Здесь получают навыки, помогают быстрее развиваться в карьере, эффективнее обучаться новому.">
+
+    <!-- <meta property="og:url" content="https://kognetika.ru/app/letters">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Когнетика">
+    <meta property="og:locale" content="ru_RU">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="">
+    <meta property="vk:image" content="">
+    <meta property="twitter:image" content=""> -->
+
+    <link rel="stylesheet" href="css/main.min.css" type="text/css">
+    <script type="text/javascript" src="js/main.js" charset="utf-8"></script>
 </head>
 <body>
-    <header> 
-        <nav>
-            <div class="container">
-                <ul class="menu">
-                    <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Со своим автомобилем</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="subheader">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="icons/logo.svg" alt="logo" class="logo_img">
-                        <div class="logo_text">Официальный партнер Uber в Москве</div>
-                    </div>
-                    <div class="col-md-2 offset-md-3">
-                        <div class="phone_text">Звоните нам ежедневно</div>
-                        <a href="tel:+74957970988" class="phone_link">8 495 797 09 88</a>
-                    </div>
-                    <div class="col-md-3">
-                        <button class="header_btn">заказать звонок</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section class="promo">
+    <section class="kg-header">
         <div class="container">
-            <h1 class="promo_header">Компания Uber Partners</h1>
-            <h2 class="promo_subheader">Приглашаем водителей на своем авто</h2>
-            <div class="promo_descr">Компания UBER  динамически развивающаяся. Компания на рынке занимает лидирующее место среди таксомоторных компаний, Компания абсолютно прозрачная вы можете контролировать все процессы у себя в личном кабинете. Бонуcная система. Помимо выполненной работы по заказам, компания начисляет бонусы за пиковое время.</div>
-            <div class="promo_cta">Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Москве.<br>Водители у нас зарабатывают от 80000- 120000 в месяц.</div>
-            <button class="promo_btn">Отправить заявку</button>
+            <h1 class="kg-header-text">Найти пары букв</h1>
+            <div class="kg-header-descr"><span>Упражнение тренирует</span> рабочую память и внимание.</div>
         </div>
     </section>
-    <section class="about">
+    <section class="kg-game">
         <div class="container">
-            <div class="label_black">преимущества</div>
-            <div class="header_black">8 причин начать работать с нами</div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="about_block">
-                        <div class="about_round"><img src="icons/credit-card.svg" alt="1" class="about_img">
+            <div class="kg-game-block">
+                <div class="kg-game-wrapper">
+                    <div id="text" class="kg-game-text">Нажмите на кнопку начать</div>
+                    <div id="background" onclick="click(event)" class="kg-game-field">
+                        <div class="kg-game-sec">
+                            <div id="image00" class="kg-game-sec-item"></div>
+                            <div id="image01" class="kg-game-sec-item"></div>
+                            <div id="image02" class="kg-game-sec-item"></div>
+                            <div id="image03" class="kg-game-sec-item"></div>
+                            <div id="image10" class="kg-game-sec-item"></div>
+                            <div id="image11" class="kg-game-sec-item"></div>
+                            <div id="image12" class="kg-game-sec-item"></div>
+                            <div id="image13" class="kg-game-sec-item"></div>
+                            <div id="image20" class="kg-game-sec-item"></div>
+                            <div id="image21" class="kg-game-sec-item"></div>
+                            <div id="image22" class="kg-game-sec-item"></div>
+                            <div id="image23" class="kg-game-sec-item"></div>
+                            <div id="image30" class="kg-game-sec-item"></div>
+                            <div id="image32" class="kg-game-sec-item"></div>
+                            <div id="image31" class="kg-game-sec-item"></div>
+                            <div id="image33" class="kg-game-sec-item"></div>
+                            <div id="image04" class="kg-game-sec-item"></div>
+                            <div id="image14" class="kg-game-sec-item"></div>
+                            <div id="image24" class="kg-game-sec-item"></div>
+                            <div id="image34" class="kg-game-sec-item"></div>
                         </div>
-                        <div class="about_item">
-                            <div class="about_title">Никаких наличных, оплата происходитавтоматически</div>
-                            <div class="about_text">Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about_block">
-                        <div class="about_round"><img src="icons/bonus.svg" alt="2" class="about_img"></div>
-                        <div class="about_item">
-                            <div class="about_title">Комиссия 8% + БОНУСЫ</div>
-                            <div class="about_text">У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку, некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители зарабатывают больше!</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about_block">
-                        <div class="about_round"><img src="icons/coins.svg" alt="3" class="about_img"></div>
-                        <div class="about_item">
-                            <div class="about_title">Высокий доход с гарантированнымивыплатами</div>
-                            <div class="about_text">Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам не нужно оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги и ведение банковского счета.</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about_block">
-                        <div class="about_round"><img src="icons/appointment.svg" alt="4" class="about_img"></div>
-                        <div class="about_item">
-                            <div class="about_title">Работа в удобное время, никакихграфиков</div>
-                            <div class="about_text">Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии. Вы можете подрабатывать только утром, вечером, в выходные или праздничные дни! </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about_block">
-                        <div class="about_round"><img src="icons/key.svg" alt="5" class="about_img"></div>
-                        <div class="about_item">
-                            <div class="about_title">Комфортное, прозрачное и простоеподключение</div>
-                            <div class="about_text">Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к нам! Вы присылаете нам копии документов, мы регистрируем Вас и присылаем данные для подключения, через 1-2 дня Вы можете начинать работать!</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about_block">
-                        <div class="about_round"><img src="icons/smartphone.svg" alt="6" class="about_img"></div>
-                        <div class="about_item">
-                            <div class="about_title">Всегда большое количество заказов</div>
-                            <div class="about_text">Приложение показывает, где на данный момент больше всего заказов и где действуют повышенные тарифы. У Вас не будет простоя и холостых пробегов. Наши пассажиры всегда приятные и абсолютно неконфликтные люди, которых приятно возить.</div>
+                        <div class="kg-game-elem">
+                            <div id="text33" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text32" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text31" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text30" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text23" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text22" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text21" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text20" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text13" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text12" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text11" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text10" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text03" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text02" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text01" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text00" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text04" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text14" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text34" class="kg-game-elem-item" onclick="onClick(event)"></div>
+                            <div id="text24" class="kg-game-elem-item" onclick="onClick(event)"></div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about_block">
-                        <div class="about_round"><img src="icons/24-hours-support.svg" alt="7" class="about_img"></div>
-                        <div class="about_item">
-                            <div class="about_title">Круглосуточная поддержка</div>
-                            <div class="about_text">В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.</div>
-                        </div>
+                    <div class="kg-game-nav">
+                        <div id="time" class="kg-game-timer">00:00</div>
+                        <div id="button" class="kg-game-btn" onclick="startGame();">Начать</div>
+                        <div id="ovalShape" class="kg-game-info" onclick="info(event);">?</div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="about_block">
-                        <div class="about_round"><img src="icons/electric-car.svg" alt="8" class="about_img"></div>
-                        <div class="about_item">
-                            <div class="about_title">Без шашечек и наклеек</div>
-                            <div class="about_text">Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.</div>
+                    <div id="mistakes" class="kg-game-end">
+                        <div id="text2" class="kg-game-end-text"></div>
+                        <button id="conf1" class="kg-game-end-btn" onclick="ok(event);">Заново</button>
+                    </div>
+                    <div id="i" class="kg-game-help">
+                        <div id="iText" class="kg-game-help-text">Вам будет показана таблица, в каждой ячейке которой скрыта буква. За один раз можно открыть пару ячеек.<br><br>Если буквы в ячейках совпадут, ячейки останутся открытыми, если нет — закроются. <br><br>Ваша задача — как можно быстрее открыть всю таблицу.
                         </div>
+                        <button id="conf" class="kg-game-help-btn" onclick="ok(event);">Закрыть</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="mobile">
-        <div class="container">
-            <div class="label_black">Возможности</div>
-            <div class="header_black">Мобильное приложение убер</div>
-            <div class="subheader_black">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="mobile_item mobile_item_1">
-                        <div class="mobile_descr">оформление заказа одним касанием</div>
-                        <div class="mobile_round">
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="mobile_item mobile_item_2">
-                        <div class="mobile_descr">надежная подача</div>
-                        <div class="mobile_round">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="mobile_item mobile_item_3">
-                        <div class="mobile_descr">прозрачные цены</div>
-                        <div class="mobile_round">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="mobile_item mobile_item_4">
-                        <div class="mobile_descr">безналичная оплата</div>
-                        <div class="mobile_round">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="mobile_item mobile_item_5">
-                        <div class="mobile_descr">обратная связь</div>
-                        <div class="mobile_round">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="mobile_item mobile_item_6">
-                        <div class="mobile_descr">разделитьстоимость поездки</div>
-                        <div class="mobile_round">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="choice">
-        <div class="container">
-            <div class="label_white">Возможности</div>
-            <div class="header_white">Выбор - отличная штука!</div>
-            <div class="subheader_white">Закажите автомобиль, который подходит вам по стилю и бюджету</div>
-            <div class="car_wrapper">
-                <img src="img/car.png" alt="car" class="choice_img">
-            </div>
-        </div>
-        <div class="choice_grey"></div>
-    </section>
-    <section class="terms">
-        <div class="container">
-            <div class="label_black">Возможности</div>
-            <div class="header_black">условия и требования</div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="terms_title"></div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="world">
-        <div class="container">
-            <div class="label_white">города</div>
-            <div class="header_white">По всему миру</div>
-            <div class="subheader_white">Мы в вашем городе и по всему миру</div>
-            <div class="see_all">посмотреть все города</div>
-        </div>
-    </section>
-    <footer>
-
-    </footer>
+    <script type="text/javascript">
+    document.ondragstart = noselect; 
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+    </script>
 </body>
 </html>
